@@ -1,0 +1,37 @@
+.up{
+    height:40px;
+    width:80vh;
+    position: absolute;
+    top:10px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.foot{
+    margin-top: 30px;
+    position:fixed
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item {
+    flex-basis: 50%;
+    padding: 10px;
+  }
+
+  .right-side{
+    display: flex;
+  }
+  .box{
+    width: 30px;
+    background-color: aliceblue;
+    flex-basis: 33.33%;
+  }
+  .right-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+  }
